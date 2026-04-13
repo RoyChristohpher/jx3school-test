@@ -1,0 +1,15 @@
+{
+  "name": "xia-ke-ling-vercel",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node api/src/server.js"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.35.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0"
+  }
+}
